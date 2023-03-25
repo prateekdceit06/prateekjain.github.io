@@ -228,7 +228,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-
+    
     h2 {
         font-size: 32px;
 
@@ -251,6 +251,9 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+    p {
+        text-align: justify;
     }
 }
 
