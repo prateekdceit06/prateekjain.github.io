@@ -2,6 +2,7 @@
 layout: post
 title:  "How to get most out of Angular JS?"
 date:   2020-05-17 13:25:13 -0400
+cover: post-image1.png
 categories: angular angularjs frontend
 background: style-1
 description: It can be challenging to still use Angular JS in the modern web application, but it is not impossible. Here are a few tips and tricks to get the most out of Angular JS, that I learned over the course of my internship.

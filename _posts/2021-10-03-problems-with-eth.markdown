@@ -2,6 +2,7 @@
 layout: post
 title:  "NFTs and the problems with ethereum blockchain"
 date:   2021-10-03 13:25:13 -0400
+cover: post-image1.png
 categories: nft blockchain ethereum
 background: style-1
 description: This technical article delves into NFTs and challenges associated with the Ethereum blockchain, including scalability, high gas fees, environmental concerns, fragmentation, and security vulnerabilities. It also discusses potential solutions like layer 2 scaling, alternative blockchains, cross-chain interoperability, sustainable consensus mechanisms, and standardization efforts to create a more robust and accessible NFT ecosystem.

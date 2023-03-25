@@ -3,59 +3,53 @@ layout: default
 ---
 
 <div class="home">
-  <div class="background-1">{% include background1.svg %}</div>
+  <h1 class="post-title">Blog</h1>
+
   <div class="hero">
-    <a class="main-article-link" href="{{ site.posts[0].url | prepend: site.baseurl }}">
-      <div class="main-article" style="background-image: url('{{ site.baseurl }}/assets/images/hero-background1.svg');">
-
-        <span>{{ site.posts[0].date | date: "%b %-d, %Y" }}</span>
-        <h1> {{ site.posts[0].title }}</h1>
-        <div class="hero-col">
-          <p>{{ site.posts[0].description }}</p>
-        </div>
-      </div>
-    </a>
-
-    <div class="row">
-      <div class="col-md-6">
-        
-      <a class="main-article-link" href="{{ site.baseurl }}/about/">
-        <div class="secondary-article secondary-article-1" style="background-image: url('{{ site.baseurl }}/assets/images/hero-background2.svg');">
-
-          <span>Get in touch</span>
-          <h1> About</h1>
-            <p>Find more about me and find my contact information by clicking on this card</p>
-        </div>
-      </a>
-      </div>
-
-      <div class="col-md-6">
-        <a class="main-article-link" href="{{ site.baseurl }}/projects/">
-          <div class="secondary-article secondary-article-2" style="background-image: url('{{ site.baseurl }}/assets/images/hero-background3.svg');">
-
-            <span>Some things I've built</span>
-            <h1> Projects</h1>
-              <p>View all the projects I have built by clicking on this card</p>
-          </div>
-        </a>
-      </div>
-    </div>
-    <img class="shadow-3" src="{{ site.baseurl }}/assets/images/hero-shadow3.svg">
+<div class="row">
+  <div class="col-md-6">
+    <img src="{{ site.baseurl }}/assets/images/{{ site.posts[0].cover }}" style="
+         min-height: 300px;
+    margin-bottom: 20px;
+    display: block;
+    width: auto;
+    object-fit: cover;">
   </div>
-  <h1 class="post-title">Posts</h1>
+  <div class="col-md-6">
+    
+    <span class="post-meta">{{ site.posts[0].date | date: "%b %-d, %Y" }}</span>
 
-  <ul class="post-list">
+    <h2>
+      <a class="post-link" href="{{ site.posts[0].url | prepend: site.baseurl }}">{{ site.posts[0].title }}</a>
+      <p class="post-description">{{ site.posts[0].description }}</p>
+    </h2>
+  </div>
+</div>
+  </div>
+
+  <div class="post-list row no-gutters">
     {% for post in site.posts %}
-      <li>
+    {% if post.url == site.posts[0].url %}
+    {% continue %}
+    {% endif %}
+      <div class="col-md-5" style="margin-bottom: 30px;">
+        <img src="{{ site.baseurl }}/assets/images/{{ post.cover }}" style="
+         height: 200px;
+         width: 100%;
+    margin-bottom: 20px;
+    display: block;
+    object-fit: cover;">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           <p class="post-description">{{ post.description }}</p>
         </h2>
-      </li>
+      </div>
+
+      <div class="col-md-1"></div>
     {% endfor %}
-  </ul>
+    </div>
 <!-- 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 

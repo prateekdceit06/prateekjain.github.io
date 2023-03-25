@@ -3,12 +3,12 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  {% if page.background == "style-1" %}
-    <div class="background-2">{% include background2.svg %}</div>
-  {% endif %}
-  {% if page.background == "style-2" %}
-    <div class="background-3">{% include background3.svg %}</div>
-  {% endif %}
+  <img src="{{ site.baseurl }}/assets/images/{{ page.cover }}" style="
+  height: 400px;
+margin-bottom: 20px;
+display: block;
+width: 100%;
+object-fit: cover;">
   <header class="post-header">
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>

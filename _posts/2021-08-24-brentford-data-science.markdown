@@ -2,6 +2,7 @@
 layout: post
 title:  "Brentford FC: Love story of Data Science & Football"
 date:   2021-08-24 13:25:13 -0400
+cover: post-image1.png
 categories: data-science football
 background: style-1
 description: The article showcases Brentford FC's innovative use of data science and AI in football, revolutionizing player recruitment and on-field tactics under owner Matthew Benham. Their data-driven approach resulted in Brentford's Premier League promotion after 70 years and significant profits from player transfers. By combining technology and analytics, Brentford FC exemplifies the potential of data science to transform football clubs' fortunes on and off the pitch.

@@ -2,6 +2,7 @@
 layout: post
 title:  "Parallelization of Borůvka's algorithm"
 date:   2020-12-11 13:25:13 -0400
+cover: post-image1.png
 categories: parallel-computing graph-algorithm Borůvka-algorithm
 background: style-2
 description: At a Georgia Tech research program, the author parallelized Borůvka's algorithm for minimum spanning trees using Java Habanero. They compared multithreaded program performance across different thread and core counts, maximizing CPU utilization with concurrent thread execution, and leveraging the Thread class or Runnable interface.

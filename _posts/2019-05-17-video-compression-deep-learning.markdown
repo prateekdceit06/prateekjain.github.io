@@ -2,6 +2,7 @@
 layout: post
 title:  "Video Compression & Deep Learning"
 date:   2019-10-30 13:25:13 -0400
+cover: post-image1.png
 categories: video-compression AI deep-learning
 background: style-2
 description: In today’s world, video consumption has become an indispensable part of people’s life. Artificial Intelligence and Deep Learning models might be able to help us in compressing videos and save huge amounts of storage space.
