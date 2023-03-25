@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "A Technical Overview of Object Design and Documentation in a State-of-the-Art Bank Software"
+date:   2021-12-08 13:25:13 -0400
+cover: post-image3.png
+categories: object-oriented software-design bank
+description: Object design and documentation in a software system play a crucial role in ensuring its structure, functionality, and relationships between different components. In this article, we'll dive deep into the object design and documentation of a state-of-the-art bank software and explore its design choices, software principles followed, and exciting future work.
+---
+# Introduction
+
+Object design and documentation in a software system play a crucial role in ensuring its structure, functionality, and relationships between different components. In this article, we'll dive deep into the object design and documentation of a state-of-the-art bank software and explore its design choices, software principles followed, and exciting future work.
+
+# UML
+UML Diagram Overview The UML (Unified Modeling Language) diagram provides a comprehensive overview of the software's class structure, like a panoramic view of a skyscraper. The object design and documentation of this bank software are nothing short of spectacular. The UML diagram of the Main class structure brings all the components together, like the foundation of a skyscraper. The staticData packet handles SHA256 and Conversions, which is like the steel beams that provide structural support. The user class, with methods that provide finer control over the account to the user, is like the elevator that takes you to the top floor. The manager class and account class, connected in a hierarchical format, are like the different levels of the skyscraper. The userInterface package that handles all the frontend is like the sparkling glass facade of the skyscraper that draws your attention.
+
+# Design choices
+
+Design Choices The design choices made in building this bank software are brilliant and innovative, such as the database design, software principles, and the use of the Model-View-Controller architecture, adhering to DRY, and using the Decorator Pattern.
+
+Database Design The database design is like the foundation of a skyscraper. It's the backbone that supports the entire system. In this bank software, the database design is nothing short of exceptional. The Entity-Relationship Diagram (ERD) has been carefully crafted to represent the relationships between the customer, account, and bank ledger entities. It's like a beautifully drawn blueprint that guides the construction of the foundation.
+
+# Software Principles
+
+Software Principles Followed The software principles followed in building this bank software are like the guiding principles that ensure the skyscraper is structurally sound, aesthetically pleasing, and environmentally friendly.
+- Open/Close Principle The Open/Close Principle is like the principle of using sustainable materials in building construction. It ensures that the software entities are open for extension but closed for modification, allowing for extensibility without breaking existing code.
+- Factory Proxy Pattern The Factory Proxy Pattern is like the principle of using energy-efficient systems in building construction. It allows for the creation of objects without directly instantiating them, resulting in a cleaner and more maintainable codebase and better performance.
+- Model-View-Controller Architecture The Model-View-Controller Architecture is like the principle of using smart building technologies in building construction. It divides the application into three interconnected parts: the model, view, and controller, resulting in a cleaner and more organized codebase.
+- Adhering to DRY Adhering to DRY is like the principle of using recycled materials in building construction. It ensures that the codebase has close to zero redundancy, resulting in a cleaner and more maintainable codebase.
+- Decorator Pattern The Decorator Pattern is like the principle of using smart home technologies in building construction. It dynamically adds extra functionality to a class without permanently changing the code of the class itself, resulting in a more flexible and versatile codebase.
+
+# Future Work
+
+The future work of this bank software is like the future work of any iconic skyscraper. There's always room for improvement and innovation.
+Migrating to a Hosted Database Migrating to a hosted database is like adding a new wing to the skyscraper. It will require assessing the current setup, taking inventory of the data, applications, and dependencies that rely on the database, and selecting a hosted solution that best meets the bank's needs. Migrating the data and configuring the applications to use the new database environment will be like the construction of the new wing, ensuring that the entire system remains reliable and secure.
+
+Unit Testing the Database and Middleware Unit testing the database and middleware is like conducting regular maintenance checks on the skyscraper. It ensures that the system remains reliable and performs well, preventing any potential issues from arising. The bank software did not conduct unit testing for every transaction in the database due to time limitations, but in the future, the bank should prioritize unit testing to ensure the system's reliability and performance.
+
+# Benefits
+
+The benefits of using the above approach in the object design and documentation of a bank software system:
+1. Improved Structure: The use of UML diagrams provides a comprehensive overview of the software's class structure, which helps in betterunderstanding the system's architecture, functionality, and relationships between different components.
+2. Greater Flexibility: The use of software principles like the Open/Close Principle and the Decorator Pattern, allow for extensibility andgreater flexibility without breaking existing code.
+3. Better Maintainability: Adhering to DRY and using the Factory Proxy Pattern results in a cleaner and more maintainable codebase, making iteasier to debug and maintain the system.
+4. Enhanced Performance: The use of the Model-View-Controller architecture results in a cleaner and more organized codebase, which can lead tobetter performance.
+5. Increased Security: The exceptional database design, following the Entity-Relationship Diagram (ERD), ensures data integrity and security.
+
+Additionally, unit testing the database and middleware can help prevent potential issues and maintain system reliability.
+By using these approaches, a bank software system can be built to be reliable, flexible, and maintainable, with strong data security and better performance. Ultimately, this can lead to a better user experience and greater customer satisfaction.

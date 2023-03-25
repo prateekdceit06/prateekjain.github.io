@@ -15,15 +15,14 @@ As a passionate developer, I've always been a fan of Visual Studio Code (VS Code
 
 The immense user base of VS Code makes it an attractive target for malicious actors. Ensuring the security of third-party extensions is challenging, as developer machines often contain sensitive credentials and access to critical parts of the codebase. Moreover, these extensions run with user privileges and without sandboxing, making it easier for malicious actors to install harmful programs. As security experts warn about potential threats, it becomes crucial to scrutinize the legitimacy and security of VS Code extensions.
 
-# My Ingenious Five-Phase Approach to Identifying and Mitigating Vulnerabilities
+# My Ingenious Three-Phase Approach to Identifying and Mitigating Vulnerabilities
 
-To assess the security of VS Code extensions, I devised a creative five-phase approach:
+To assess the security of VS Code extensions, I devised a creative three-phase approach:
 
 - Extension Selection: I handpicked extensions based on official statistics and community feedback.
 - Vulnerability Identification: I thoroughly analyzed the selected extensions for potential security vulnerabilities.
 - Vulnerability Exploitation: I attempted to exploit identified vulnerabilities, determining their impact and validating mitigation strategies.
-- Grouping Vulnerabilities & Automating Detection: I classified extensions according to their underlying technology or coding practices, and developed an automated detection process.
-- Reporting and Recommendations: I prepared a comprehensive report summarizing my findings and recommendations.
+
 
 # My Findings: Vulnerabilities and the Art of Exploitation
 
