@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction"
-date:   2021-10-11 13:25:13 -0400
+date:   2022-08-11 13:25:13 -0400
 cover: post-image3.png
 categories: about-me introduction experiences
 description: As an Assistant Commandant in the Central Reserve Police Force, I gained mental and physical skills that prepared me for a master's in computer science with a focus on cybersecurity. My coursework covered computer networks, object-oriented programming, event data streaming, and cybersecurity. My experience also taught me the value of teamwork and effective communication, skills that are essential for success in the cybersecurity industry. I'm excited about the endless possibilities and the potential to make an impact in this dynamic field.

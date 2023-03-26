@@ -2,7 +2,7 @@
 layout: post
 title:  "Heterogeneity-Aware Operator Placement for Stream Processing Systems at the Edge
 Optimizing Edge Resources"
-date:   2022-02-25 13:25:13 -0400
+date:   2023-01-25 13:25:13 -0400
 cover: post-image4.png
 categories: flink raspberry streaming
 description: Our team developed a system for optimizing edge resources in stream processing systems. It includes a cost model, a scheduler for operator offloading, and identifies parameters affecting placement. We used edge computing clusters and improved efficiency, reducing latency.

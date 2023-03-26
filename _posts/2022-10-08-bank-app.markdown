@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Technical Overview of Object Design and Documentation in a State-of-the-Art Bank Software"
-date:   2021-12-08 13:25:13 -0400
+date:   2022-10-08 13:25:13 -0400
 cover: post-image3.png
 categories: object-oriented software-design bank
 description: Object design and documentation in a software system play a crucial role in ensuring its structure, functionality, and relationships between different components. In this article, we'll dive deep into the object design and documentation of a state-of-the-art bank software and explore its design choices, software principles followed, and exciting future work.
