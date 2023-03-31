@@ -2,7 +2,7 @@
 layout: post
 title:  "My Journey in Uncovering Vulnerabilities in VS Code Extensions: Protecting Your Supply Chain from Cyber Threats"
 date:   2023-02-28 13:25:13 -0400
-cover: post-image6.png
+cover: vscode.jpeg
 categories: vscode extension security
 description: In this blog post, I’ll share my journey in identifying, analyzing, and testing VS Code extensions from a security breach perspective, and the creative recommendations I came up with to mitigate potential risks.
 ---
