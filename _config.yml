@@ -12,11 +12,8 @@ description: >
   I am a creative and dynamic software engineer with 8+ years of experience in networking, software development, malware analysis, and VAPT. My expertise includes multiple programming languages and cybersecurity tools. I hold a Bachelor of Engineering in IT and pursuing an MS in Computer Science.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://prateekjain.tech" # the base hostname & protocol for your site
-twitter_username: prateekjain
-twitter:
-  username: prateekjain
-  card: summary
-github_username:  prateekjain
+linkedin_username: prateek-jain-bu
+github_username:  prateekdceit06
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
